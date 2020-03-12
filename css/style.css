@@ -101,6 +101,10 @@ footer {
 
 /* Actor list */
 
+.nolist {
+    list-style: none;
+}
+
 #actors-list li {
     color: darkred;
     background-color: #eee;
