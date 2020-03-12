@@ -36,6 +36,7 @@ h2 {
 h3 {
     font-size: 1.3em;
     color: darkred;
+    margin: 1em 0;
 }
 
 
@@ -98,7 +99,7 @@ footer {
     margin-top: 1em;
 }
 
-/* liste d'acteurs */
+/* Actor list */
 
 #actors-list li {
     color: darkred;
@@ -117,4 +118,17 @@ footer {
 #actors-list li:hover {
     background-color: red;
     color: black;
+}
+
+/* illustrations */
+
+.picture {
+    width: 35%;
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 0 auto 1em;
+}
+
+.picture > img {
+    width: 100%;
 }
