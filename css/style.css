@@ -122,11 +122,18 @@ footer {
 
 /* illustrations */
 
+#pictures {
+    display: flex;
+    justify-content: space-between;
+}
+
 .picture {
-    width: 35%;
+    width: 32%;
     border: 1px solid #ccc;
     padding: 1em;
-    margin: 0 auto 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .picture > img {
