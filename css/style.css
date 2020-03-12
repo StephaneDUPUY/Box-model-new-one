@@ -18,20 +18,39 @@ strong {
     font-weight: bold;
 }
 
+.texte-normal {
+    text-align: left;
+    margin: 1em 0;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    font-family: Oswald, sans-serif;
+}
+
+h2 {
+    font-size: 1.6em;
+    margin: 1em 0;
+}
+
+h3 {
+    font-size: 1.3em;
+    color: darkred;
+}
+
+
 /* header */
 
 header {
     margin-bottom: 1em;
 }
 
-header img {
+#page-header img {
     margin-bottom: 1em;
 }
 
 h1 {
     font-size: 3em;
-    font-weight: bold;
-    font-family: Oswald, sans-serif;
     border: 2px solid #8b0000;
     border-width: 2px 0;
     padding: .3em;
@@ -42,4 +61,60 @@ h1 {
     color: white;
     font-size: .3em;
     padding: .5em 1em;
+}
+
+/* main */
+
+main {
+    padding: 0 10%;
+}
+
+#presentation {
+    background-color: #eee;
+    padding: 1em;
+}
+
+#presentation-header {
+    border-bottom: 1px solid black;
+    margin-bottom: 1em;
+}
+
+#presentation-header img {
+    height: 4em;
+}
+
+#presentation-aside {
+    font-style: italic;
+    font-size: .8em;
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
+/* footer */
+
+footer {
+    background-color: #eee;
+    padding: 2em 0 4em;
+    margin-top: 1em;
+}
+
+/* liste d'acteurs */
+
+#actors-list li {
+    color: darkred;
+    background-color: #eee;
+    text-transform: uppercase;
+    border-radius: 1em;
+    font-size: .9em;
+    margin: .2em 0;
+}
+
+#actors-list li a {
+    display: block;
+    padding: .3em;
+}
+
+#actors-list li:hover {
+    background-color: red;
+    color: black;
 }
